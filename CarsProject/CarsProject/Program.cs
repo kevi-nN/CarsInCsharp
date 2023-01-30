@@ -29,16 +29,19 @@ namespace CarsProject // Note: actual namespace depends on the project name.
         }
         // main menu
         // prompt for user input, show menu until 4
+
         string input = "";
 
-        while (input != "4");
+        while (input != "4")
         {
             Console.WriteLine(" Welcome to kevins dealership");
             Console.WriteLine(" 1. Add a new car");
             Console.WriteLine(" 2. Sell a current car");
             Console.WriteLine(" 3. List all cars");
-            Console.WriteLine(" 4 to quit);
-        
+            Console.WriteLine(" 4 to quit");
+            Console.ReadLine();
+        }
+
         public void AddCar()
         {
             Console.WriteLine("Enter the year of the vehicle:");
